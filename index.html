@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Server</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 35%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 30px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+        .rainbow-marquee {
+            margin-top: 20px;
+            font-size: 20px;
+            animation: rainbow 1s linear infinite;
+            position: relative;
+            display: inline-block;
+        }
+
+
+        @keyframes rainbow {
+            0% { color: red; }
+            16.666% { color: orange; }
+            33.333% { color: yellow; }
+            50% { color: green; }
+            66.666% { color: blue; }
+            83.333% { color: indigo; }
+            100% { color: violet; }
+        }
+    </style>
+</head>
+<body>
+    <h1>SELAMAT DATANG DI WEB TAUPIK</h1>
+    <!-- Ini adalah tabel Data-Diri-->
+    <table>
+        <tr>
+            <td>Nama</td>
+            <td>Muhamad Taupik Hidayat</td>
+        </tr>
+        <tr>
+            <td>NIS</td>
+            <td>12108565</td>
+        </tr>
+        <tr>
+            <td>Rombel</td>
+            <td>TJKT XII-3</td>
+        </tr>
+        <tr>
+            <td>Rayon</td>
+            <td>Cicurug 4</td>
+        </tr>
+    </table>
+    <div class="rainbow-marquee">
+        <marquee direction="right">Konfigurasi Web Server Berhasil !!!</marquee>
+    </div>
+    <h2>
+        Kunjungi Website Lainnya Disini :
+    </h2>
+    <!-- Ini Letak tombol untuk masuk ke Web Lain.
+         silahkan ubah link didalam hrefnya sesuai dengan LKPD.
+         Ubah juga tampilan string Buttonnya.
+    -->
+    <div class="button-container">
+        <a href="http://static1.srvabdul.net" target="_blank">Static1</a>
+    </div>
+    <div class="button-container">
+        <a href="http://dvwa.srvabdul.net" target="_blank">DVWA</a>
+    </div>
+    <div class="button-container">
+        <a href="http://caffe.srvabdul.net" target="_blank">Caffe</a>
+    </div>
+    <div class="button-container">
+        <a href="http://wordpress.srvabdul.net" target="_blank">Wordpress</a>
+    </div>
+</body>
+</html>
